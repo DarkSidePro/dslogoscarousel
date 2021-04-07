@@ -1,0 +1,76 @@
+/*
+ * ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * <DARK SIDE TEAM> wrote this file. As long as you retain this notice you
+ * can do whatever you want with this stuff. If we meet some day, and you think
+ * this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp
+ * ----------------------------------------------------------------------------
+ */
+
+.text-center {
+    width: 100%;
+    text-align: center;
+    color: inherit;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.logocarousel {
+    background: #fff;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.owl-prev span {
+    font-size: 40px;
+}
+
+button.owl-prev span:focus {
+    outline: none;
+}
+
+button.owl-next span {
+    font-size: 40px;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.owl-prev span {
+    font-size: 40px;
+}
+
+button.owl-prev span:focus {
+    outline: none;
+}
+
+button.owl-next span {
+    font-size: 40px;
+}
+
+div#logoCarousel.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#logoCarousel.grid .item {
+    max-width: 250px;
+    margin: 10px;
+}
+
+div#logoCarousel.grid .item img {
+    max-width: 100%;
+}
